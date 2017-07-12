@@ -4,7 +4,7 @@ import os
 
 class PahomqttcConan(ConanFile):
     name = "libpaho-mqtt-c"
-    version = "1.0.0"
+    version = "1.2.0-1"
     license = "EDL/EPL"
     description = "Paho MQTT client library"
     url = "https://github.com/geotracsystems/paho.mqtt.c"

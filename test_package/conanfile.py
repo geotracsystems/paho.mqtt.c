@@ -8,7 +8,7 @@ username = os.getenv("CONAN_USERNAME", "geotrac")
 
 class PahomqttcTestConan(ConanFile):
     settings = "os", "compiler", "build_type", "arch"
-    requires = "libpaho-mqtt-c/1.0.0@%s/%s" % (username, channel)
+    requires = "libpaho-mqtt-c/1.2.0-1@%s/%s" % (username, channel)
     generators = "cmake"
 
     def build(self):
